@@ -1,0 +1,32 @@
+{
+  "name": "parcial-1-vet-lucia",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/luciaureta-droid/dwn4av#readme",
+  "bugs": {
+    "url": "https://github.com/luciaureta-droid/dwn4av/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luciaureta-droid/dwn4av.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon main.js",
+    "dev": "nodemon --ignore data/*main.js",
+    "ajax": "nodemon ajax.js"
+  },
+  "keywords": [],
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "5.2.1",
+    "mongodb": "^7.2.0"
+  }
+}

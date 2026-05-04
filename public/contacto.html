@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <h1> Contacto</h1>
+      <nav class="navbar">
+    <ul class="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="productos.html">Productos</a></li>
+        <li><a href="productos.html?seccion=gatos">Gatos</a></li>
+        <li><a href="productos.html?seccion=perros">Perros</a></li>
+        <li><a href="contacto.html">Contacto</a></li> </ul>
+</nav>
+    <form  action="/comentario" method="post" >
+        <div>  
+            <label>Ingresar email</label>
+            <input type="email"name="email">      
+        </div>
+        <label>Comentario</label> 
+        <textarea name="comentario" ></textarea>
+        <div>
+            
+        </div>
+        <button type="submit">Enviar Comentario</button>
+    </form>
+
+    
+</body>
+</html>
